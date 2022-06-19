@@ -1,6 +1,14 @@
 <h1>mako-design</h1>
 <h2>toshi-design</h2>
 
+<ul>HTMLを修正する際、
+  <li>TOP画面はapp/views/posts/index.html.erb</li>
+  <li>投稿画面はapp/views/posts/new.html.erb</li>
+  <li>(ユーザーの)新規登録画面はapp/views/devise/registrations/new.html.erb</li>
+  <li>ログイン画面はapp/views/devise/sessions/new.html.erb</li>
+  <li>CSSはapp/assets/stylesheets/index.css</li>
+</ul>
+
 <% if user_signed_in? %>
   <div class="user_nav grid-6">
     <%= link_to "ログアウト", destroy_user_session_path, method: :delete %>

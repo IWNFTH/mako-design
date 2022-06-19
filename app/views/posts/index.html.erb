@@ -9,6 +9,12 @@
   <li>CSSはapp/assets/stylesheets/index.css</li>
 </ul>
 
+<ul>ログインアカウントは
+  <li>name:mako</li>
+  <li>email:b@b</li>
+  <li>PW:111111aaaaaa</li>
+</ul>
+
 <% if user_signed_in? %>
   <div class="user_nav grid-6">
     <%= link_to "ログアウト", destroy_user_session_path, method: :delete %>

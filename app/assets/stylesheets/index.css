@@ -1,5 +1,37 @@
 @charset "UTF-8";
 
-h1 {
-  color: aqua;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
+
+body {
+  font-size: 16px;
+}
+
+h1 {
+  color: #ec6d71;
+}
+
+h2 {
+  width: 200px;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 2;
+  background: #eee;
+  border-left: 4px solid #ec6d71;
+  padding-left: 8px;
+  margin: 8px 0;
+}
+
+ul li {
+  list-style: inside;
+  margin-left: 8px;
+  
+}
+
+ol li {
+  margin-left: 24px;
+}
+

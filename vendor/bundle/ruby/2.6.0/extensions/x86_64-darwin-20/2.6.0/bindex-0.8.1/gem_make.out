@@ -1,5 +1,13 @@
 current directory: /Users/mako/projects/mako-design/vendor/bundle/ruby/2.6.0/gems/bindex-0.8.1/ext/skiptrace
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
 /Users/mako/.rbenv/versions/2.6.5/bin/ruby -I /Users/mako/.rbenv/versions/2.6.5/lib/ruby/2.6.0 -r ./siteconf20220619-7722-1b87okb.rb extconf.rb
+=======
+/Users/mako/.rbenv/versions/2.6.5/bin/ruby -I /Users/mako/.rbenv/versions/2.6.5/lib/ruby/2.6.0 -r ./siteconf20220616-10299-1m5chsi.rb extconf.rb
+>>>>>>> Stashed changes
+=======
+/Users/mako/.rbenv/versions/2.6.5/bin/ruby -I /Users/mako/.rbenv/versions/2.6.5/lib/ruby/2.6.0 -r ./siteconf20220616-10299-1m5chsi.rb extconf.rb
+>>>>>>> Stashed changes
 creating Makefile
 
 current directory: /Users/mako/projects/mako-design/vendor/bundle/ruby/2.6.0/gems/bindex-0.8.1/ext/skiptrace
@@ -43,4 +51,12 @@ linking shared-object skiptrace/internal/cruby.bundle
 
 current directory: /Users/mako/projects/mako-design/vendor/bundle/ruby/2.6.0/gems/bindex-0.8.1/ext/skiptrace
 make "DESTDIR=" install
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
 /usr/bin/install -c -m 0755 cruby.bundle ./.gem.20220619-7722-1us0wmi/skiptrace/internal
+=======
+/usr/bin/install -c -m 0755 cruby.bundle ./.gem.20220616-10299-yrh5y7/skiptrace/internal
+>>>>>>> Stashed changes
+=======
+/usr/bin/install -c -m 0755 cruby.bundle ./.gem.20220616-10299-yrh5y7/skiptrace/internal
+>>>>>>> Stashed changes

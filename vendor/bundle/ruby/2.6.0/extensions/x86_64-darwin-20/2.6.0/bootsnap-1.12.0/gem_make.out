@@ -1,5 +1,13 @@
 current directory: /Users/mako/projects/mako-design/vendor/bundle/ruby/2.6.0/gems/bootsnap-1.12.0/ext/bootsnap
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
 /Users/mako/.rbenv/versions/2.6.5/bin/ruby -I /Users/mako/.rbenv/versions/2.6.5/lib/ruby/2.6.0 -r ./siteconf20220619-7722-1g00q1k.rb extconf.rb
+=======
+/Users/mako/.rbenv/versions/2.6.5/bin/ruby -I /Users/mako/.rbenv/versions/2.6.5/lib/ruby/2.6.0 -r ./siteconf20220616-10299-1fefs0q.rb extconf.rb
+>>>>>>> Stashed changes
+=======
+/Users/mako/.rbenv/versions/2.6.5/bin/ruby -I /Users/mako/.rbenv/versions/2.6.5/lib/ruby/2.6.0 -r ./siteconf20220616-10299-1fefs0q.rb extconf.rb
+>>>>>>> Stashed changes
 creating Makefile
 
 current directory: /Users/mako/projects/mako-design/vendor/bundle/ruby/2.6.0/gems/bootsnap-1.12.0/ext/bootsnap
@@ -367,4 +375,12 @@ linking shared-object bootsnap/bootsnap.bundle
 
 current directory: /Users/mako/projects/mako-design/vendor/bundle/ruby/2.6.0/gems/bootsnap-1.12.0/ext/bootsnap
 make "DESTDIR=" install
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
 /usr/bin/install -c -m 0755 bootsnap.bundle ./.gem.20220619-7722-1hckadl/bootsnap
+=======
+/usr/bin/install -c -m 0755 bootsnap.bundle ./.gem.20220616-10299-1vvfjlm/bootsnap
+>>>>>>> Stashed changes
+=======
+/usr/bin/install -c -m 0755 bootsnap.bundle ./.gem.20220616-10299-1vvfjlm/bootsnap
+>>>>>>> Stashed changes

@@ -1,5 +1,13 @@
 current directory: /Users/mako/projects/mako-design/vendor/bundle/ruby/2.6.0/gems/puma-3.12.6/ext/puma_http11
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
 /Users/mako/.rbenv/versions/2.6.5/bin/ruby -I /Users/mako/.rbenv/versions/2.6.5/lib/ruby/2.6.0 -r ./siteconf20220619-7722-6da816.rb extconf.rb
+=======
+/Users/mako/.rbenv/versions/2.6.5/bin/ruby -I /Users/mako/.rbenv/versions/2.6.5/lib/ruby/2.6.0 -r ./siteconf20220616-17116-1387rji.rb extconf.rb
+>>>>>>> Stashed changes
+=======
+/Users/mako/.rbenv/versions/2.6.5/bin/ruby -I /Users/mako/.rbenv/versions/2.6.5/lib/ruby/2.6.0 -r ./siteconf20220616-17116-1387rji.rb extconf.rb
+>>>>>>> Stashed changes
 checking for BIO_read() in -lcrypto... yes
 checking for SSL_CTX_new() in -lssl... yes
 checking for openssl/bio.h... yes
@@ -188,4 +196,12 @@ linking shared-object puma/puma_http11.bundle
 
 current directory: /Users/mako/projects/mako-design/vendor/bundle/ruby/2.6.0/gems/puma-3.12.6/ext/puma_http11
 make "DESTDIR=" install
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
 /usr/bin/install -c -m 0755 puma_http11.bundle ./.gem.20220619-7722-11k8thc/puma
+=======
+/usr/bin/install -c -m 0755 puma_http11.bundle ./.gem.20220616-17116-18eojqb/puma
+>>>>>>> Stashed changes
+=======
+/usr/bin/install -c -m 0755 puma_http11.bundle ./.gem.20220616-17116-18eojqb/puma
+>>>>>>> Stashed changes

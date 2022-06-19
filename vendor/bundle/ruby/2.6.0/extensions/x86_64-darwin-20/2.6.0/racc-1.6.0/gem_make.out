@@ -1,5 +1,13 @@
 current directory: /Users/mako/projects/mako-design/vendor/bundle/ruby/2.6.0/gems/racc-1.6.0/ext/racc/cparse
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
 /Users/mako/.rbenv/versions/2.6.5/bin/ruby -I /Users/mako/.rbenv/versions/2.6.5/lib/ruby/2.6.0 -r ./siteconf20220619-7722-8v9478.rb extconf.rb
+=======
+/Users/mako/.rbenv/versions/2.6.5/bin/ruby -I /Users/mako/.rbenv/versions/2.6.5/lib/ruby/2.6.0 -r ./siteconf20220616-10299-jgb4uw.rb extconf.rb
+>>>>>>> Stashed changes
+=======
+/Users/mako/.rbenv/versions/2.6.5/bin/ruby -I /Users/mako/.rbenv/versions/2.6.5/lib/ruby/2.6.0 -r ./siteconf20220616-10299-jgb4uw.rb extconf.rb
+>>>>>>> Stashed changes
 checking for rb_block_call()... yes
 checking for rb_ary_subseq()... yes
 creating Makefile
@@ -14,4 +22,12 @@ linking shared-object racc/cparse.bundle
 
 current directory: /Users/mako/projects/mako-design/vendor/bundle/ruby/2.6.0/gems/racc-1.6.0/ext/racc/cparse
 make "DESTDIR=" install
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
 /usr/bin/install -c -m 0755 cparse.bundle ./.gem.20220619-7722-15mp1lb/racc
+=======
+/usr/bin/install -c -m 0755 cparse.bundle ./.gem.20220616-10299-n11zis/racc
+>>>>>>> Stashed changes
+=======
+/usr/bin/install -c -m 0755 cparse.bundle ./.gem.20220616-10299-n11zis/racc
+>>>>>>> Stashed changes

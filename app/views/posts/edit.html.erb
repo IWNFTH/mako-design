@@ -1,0 +1,10 @@
+<div class="">
+  <div class="">
+    <%= form_with(model: @post, local: true) do |f| %>
+      <h3>投稿を編集できます</h3>
+      <%= f.text_field :text, placeholder: "投稿内容" %>
+      <%= f.submit "更新" %>
+      <%= link_to 'もどる', root_path, class:"" %>
+    <% end %>
+  </div>
+</div>

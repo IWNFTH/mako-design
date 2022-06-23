@@ -14,10 +14,15 @@
 <% end %>
 
 <div>この下に投稿したテキストが表示されます。</div>
+<div>投稿したテキストをクリックすると、編集できます。</div>
 
 <div class="">
   <% @posts.each do |p| %>
-    <div class=""><%= p.text %></div>
+    <div class="">
+      <%= link_to edit_post_path(p.id) do %>
+      <%= p.text %>
+      <% end %>
+    </div>
   <% end %>
 </div>
 
@@ -32,6 +37,7 @@
 <ul>
   <li>TOP画面はapp/views/posts/index.html.erb</li>
   <li>投稿画面はapp/views/posts/new.html.erb</li>
+  <li>編集画面はapp/views/posts/edit.html.erb</li>
   <li>(ユーザーの)新規登録画面はapp/views/devise/registrations/new.html.erb</li>
   <li>ログイン画面はapp/views/devise/sessions/new.html.erb</li>
   <li>CSSはapp/assets/stylesheets/index.css</li>

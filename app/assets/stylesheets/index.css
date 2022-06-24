@@ -8,10 +8,23 @@
 
 body {
   font-size: 16px;
+  padding: 0 20px;
+}
+
+header {
+  height: 64px;
 }
 
 h1 {
   color: #ec6d71;
+  line-height: 64px;
+}
+
+.login {
+  background-color: #eee;
+  width: 600px;
+  padding: 16px;
+  margin: 24px 0;
 }
 
 h2 {
@@ -25,10 +38,14 @@ h2 {
   margin: 8px 0;
 }
 
-ul li {
+.account li {
+  list-style: none;
+  margin-left: 8px;
+}
+
+.directory li {
   list-style: inside;
   margin-left: 8px;
-  
 }
 
 ol li {

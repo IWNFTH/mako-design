@@ -1,5 +1,9 @@
-<h1>mako-design</h1>
 
+<header class="header">
+<h1>mako-design</h1>
+</header>
+
+<div class="login">
 <% if user_signed_in? %>
   <div class="user_nav grid-6">
     <%= link_to "ログアウト", destroy_user_session_path, method: :delete %>
@@ -25,16 +29,17 @@
     </div>
   <% end %>
 </div>
+</div>
 
 <h2>ログインアカウント</h2>
-<ul>
+<ul class="account">
   <li>name:mako</li>
   <li>email:b@b</li>
   <li>PW:111111aaaaaa</li>
 </ul>
 
 <h2>ディレクトリ</h2>
-<ul>
+<ul class="directory">
   <li>TOP画面はapp/views/posts/index.html.erb</li>
   <li>投稿画面はapp/views/posts/new.html.erb</li>
   <li>編集画面はapp/views/posts/edit.html.erb</li>
@@ -44,13 +49,13 @@
 </ul>
 
 <h2>githubの流れ</h2>
-<ol>
+<ol class="github">
   <li>ブランチを作成する。例）「〇〇機能の実装」「〜〜部分のCSS調整」</li>
   <li>コーディングする。</li>
   <li>commitする。</li>
   <li>Publish branchする。</li>
   <li>Create Pull Requestする。</li>
-  <li>ブラウザ版GithubにてCreate Pull Request、Merge Pull Request、Confirm Merge、Delete branchする。（実際にはコードレビューなどが入る）</li>
+  <li>ブラウザ版GithubにてCreate Pull Request、Merge Pull Request、Confirm Merge、Delete branchする。<br>（実際にはコードレビューなどが入る）</li>
   <li>Github Desktopにてブランチをmasterに変える。</li>
   <li>Fetch originする。</li>
   <li>Pull originする。</li>

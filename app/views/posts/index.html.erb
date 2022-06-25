@@ -9,7 +9,7 @@
     <%= link_to "ログアウト", destroy_user_session_path, method: :delete %>
     <%= link_to "投稿する", new_post_path, class: "post" %>
   </div>
-  <div><%= current_user.name%>がログイン中です。</div>
+  <div><%= current_user.name%>がログイン中</div>
 <% else %>
   <div class="grid-6">
     <%= link_to "ログイン", new_user_session_path, class: "post" %>
